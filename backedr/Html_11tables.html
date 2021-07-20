@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+        th,td,table{
+           /* border-style: solid;
+            border-width: 2px;
+            border-color: grey;*/
+            
+            
+
+        }
+        th{
+            font-size: 24px;
+            padding: 10px 25px;
+            color:white;
+        }
+        td{
+            font-size: 24px;
+            padding:10px 25px ;
+            
+
+        }
+        table{
+            width: 80%;
+            margin: auto;
+        }
+        thead{
+            background-color: blue;
+
+        }
+        th:first-child{
+            border-radius: 20px 0px 0px 0px;
+        }
+        th:last-child{
+            border-radius: 0px 20px 0px 0px;
+        }
+        tr:nth-child(even)
+        {
+            background-color: rgb(183, 230, 231);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Html Tables</h1>
+    <table>
+        <thead>
+            <th>Sn.</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Karuna Adhikari</td>
+                <td>kathmandu</td>
+                <td>ktm.karuna074@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">Indira Adhikari, Kathmandu</td>
+                <td>ind123@gmail.com</td>
+               
+            </tr>
+            <tr>
+                <td>3</td>
+                <td rowspan="2">Shivaj Bhandari</td>
+                <td>Budhanilkantha</td>
+                <td>shiv4612@gmail.com</td>
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                
+                <td>kathmandu</td>
+                <td>ktm.karuna074@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Indira Adhikari</td>
+                <td>Kathmandu</td>
+                <td>ind123@gmail.com</td>
+               
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Shivaj Bhandari</td>
+                <td>Budhanilkantha</td>
+                <td>shiv4612@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    
+</body>
+</html>
